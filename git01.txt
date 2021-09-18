@@ -8,7 +8,7 @@ git2 	查看目录: git global --list
 	日志优化：git log -pretty=oneline
 	撤销命令：git reset HEAD filename
 	提交命令：git commit -m  "提交信息"
-	查看文件状态：git cat filename
+	查看文件内容：cat filename
 	添加：git add filename
 	从本地仓库检出：git checkout --filename
 	工作目录删除文件，git add filename，提交命令，使得仓库删除文件。
