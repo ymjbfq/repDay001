@@ -1,1 +1,15 @@
-git 优级限训练营目标：每天挣它100个达不溜！！
+git1 优级限第一天目标：完成git的基本指令！！
+
+git2 	查看目录: git global --list
+	查看日志: git log
+	回退命令：git reset --hard HEAD^  || git reset --hard HEAD~n || git reset --hard 哈希值(取前五个)
+	误操作补救措施：
+	查看历史日志 :git reflog 加上回退 git reset --hard 哈希值 
+	日志优化：git log -pretty=oneline
+	撤销命令：git reset HEAD filename
+	提交命令：git commit -m  "提交信息"
+	查看文件状态：git cat filename
+	添加：git add filename
+	从本地仓库检出：git checkout --filename
+	工作目录删除文件，git add filename，提交命令，使得仓库删除文件。
+	查看状态：git status
